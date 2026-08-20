@@ -4,7 +4,7 @@ import CallInterface from "./components/CallInterface";
 import ReportView from "./components/ReportView";
 import "./App.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://sasahyog-technologies-assignment.onrender.com");
 
 export default function App() {
   const [report, setReport] = useState(null);
